@@ -11,6 +11,7 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardysoftComponent } from './components/hardysoft/hardysoft.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -33,8 +34,10 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
       innerStrokeWidth: 8,
       outerStrokeColor: "#78C000",
       innerStrokeColor: "#C7E596",
-      animationDuration: 300,})
+      animationDuration: 300,}),
+      HttpClientModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
