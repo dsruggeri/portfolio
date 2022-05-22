@@ -29,12 +29,17 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
-      radius: 100,
-      outerStrokeWidth: 16,
-      innerStrokeWidth: 8,
-      outerStrokeColor: "#78C000",
-      innerStrokeColor: "#C7E596",
-      animationDuration: 300,}),
+      "radius": 60,
+      "space": -5,
+      "outerStrokeWidth": 5,
+      "outerStrokeColor": "#76C2AF",
+      "innerStrokeColor": "#ffffff",
+      "innerStrokeWidth": 5,
+      "imageSrc": "assets/images/music.svg",
+      "imageHeight": 105,
+      "imageWidth": 105,
+      "showImage": true,
+      "showBackground": false}),
       HttpClientModule
   ],
   
